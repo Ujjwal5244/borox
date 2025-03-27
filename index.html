@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Component -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- Logo -->
+        <a href="#" class="navbar-logo">
+          <img
+            src="https://maraviyainfotech.com/projects/borox-react/borox/assets/img/logo/logo.png"
+            alt="Borox Logo"
+          />
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="navbar-links" id="navbar-sticky">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Buttons & Mobile Menu -->
+        <div class="navbar-buttons">
+          <a class="lve">LIVE</a>
+          <button class="btn">Get a quote</button>
+          <button class="menu-toggle" onclick="toggleMenu()">
+            <svg
+              class="menu-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end of nav -->
+
+    <!-- Header section -->
+    <section class="header-section">
+      <div class="header">
+        <!-- header-1 -->
+        <div class="header-1">
+          <div class="header1-content">
+            <h2 class="h2bg-header">Hello, My name is</h2>
+            <h1 class="h1bg-header">Isabelle Ryal</h1>
+            <h2 class="h2bg-developer">I'm a Web Developer</h2>
+            <p class="para-header">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab,
+              praesentium!
+            </p>
+            <button class="btn">Hire Me</button>
+          </div>
+        </div>
+        <!-- header-2 -->
+        <div class="header-2">
+          <div class="header2-content">
+            <div class="header2-img">
+              <img src="images/girl.png" alt="Profile Picture" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- img after-before section -->
+
+    <section class="img-section">
+      <div class="img-container">
+        <img src="images/hero-shape.png" alt="hero-shape" class="shape" />
+        <!-- <div class="setting-img">
+        <img src="images/setting.svg" alt="setting"
+         class="setting"/>
+        </div> -->
+      </div>
+    </section>
+    <!-- end of header section -->
+
+    <!-- card-component section -->
+    <section class="card-section">
+      <div class="card-heading">
+        <h4 class="card-h4">BEST IT SERVICE</h4>
+        <h1 class="card-h1">
+          It Industries We’re <span id="offering"> Offering</span>
+        </h1>
+      </div>
+      <div class="card-container">
+        <div class="card-container-1">
+          <img src="images/icon-1.png" alt="icon1" class="icon-1" />
+          <h2>Development</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
+        <div class="card-container-1">
+          <img src="images/icon-2.png" alt="icon1" class="icon-1" />
+          <h2>Graphics design</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
+        <div class="card-container-1">
+          <img src="images/icon-3.png" alt="icon1" class="icon-1" />
+          <h2>Graphics design</h2>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end of card-component section -->
+
+    <!-- border - line -->
+
+    <div class="border">
+      <div class="border-line"></div>
+    </div>
+
+    <!-- about-section -->
+
+    <section class="about-section">
+      <div class="about-container">
+        <!-- about-content-1 -->
+        <div class="about-content-1">
+          <div class="about-img">
+            <img src="images/img-1.jpg" alt="" />
+          </div>
+        </div>
+        <!-- about container -2 -->
+        <div class="about-content-2">
+          <div class="about-container-heading">
+            <h4 class="about-h4">ABOUT US</h4>
+            <h1 class="about-h1">
+              Creativity bleeds from the pen of
+              <span id="offering">inspiration</span>
+            </h1>
+            <p class="about-para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+              molestiae veniam autem alias in provident est.
+            </p>
+          </div>
+          <div class="about-container-card">
+            <div class="left-section">
+              <div class="info-block">
+                <h3 class="about-card-details">Full Name :</h3>
+                <h3 class="about-card-name">Richard Lord</h3>
+              </div>
+              <div class="info-block">
+                <h3 class="about-card-details">Age :</h3>
+                <h3 class="about-card-name">30 Years</h3>
+              </div>
+              <div class="address-block">
+                <h3 class="about-card-details">
+                  Address :
+                  <span class="about-card-name">
+                    Ruami mellow moraes, Salvador, Brazil</span
+                  >
+                </h3>
+              </div>
+            </div>
+
+            <div class="right-section">
+              <div class="info-block">
+                <h3 class="about-card-details">Phone No :</h3>
+                <h3 class="about-card-name">+00 987654321</h3>
+              </div>
+              <div class="info-block">
+                <h3 class="about-card-details">Email :</h3>
+                <h3 class="about-card-name">example@example.com</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achivements section -->
+
+    <section class="achivements-section">
+      <div class="qualification">
+        <h2 class="achivements-h2">QUALIFICATION</h2>
+        <h1 class="achivements-h1">
+          My <span id="offering">ACHIVEMENTS</span>
+        </h1>
+      </div>
+      <div class="timeline-container">
+        <!-- Education Section -->
+        <div class="timeline-container-1">
+          <h2 class="timeline-title-h2">Education</h2>
+
+          <div class="timeline">
+            <!-- Card 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">June 15, 2013 - 2016</p>
+                <h3 class="timeline-title">
+                  Master in Computer Engineering
+                  <span class="timeline-subtitle">First Class</span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.Ut Enim Ad Minim Veniam
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">June 12, 2010 - 2013</p>
+                <h3 class="timeline-title">
+                  Bachelor in Computer Engineering
+                  <span class="timeline-subtitle">First Class</span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">June 1, 2009 - 2010</p>
+                <h3 class="timeline-title">
+                  Higher Secondary <span class="timeline-subtitle">- (A+)</span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="timeline-container-2">
+          <h2 class="timeline-title-h2">Experience</h2>
+          <div class="timeline">
+            <!-- Card 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">March 12, 2020</p>
+                <h3 class="timeline-title">
+                  Envato
+                  <span class="timeline-subtitle">EnvatoTeam Leader </span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.Ut Enim Ad Minim Veniam
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">January 23, 2018 - 2020</p>
+                <h3 class="timeline-title">
+                  Facebook Company
+                  <span class="timeline-subtitle">- Sr. Developer</span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+              <div class="timeline-card">
+                <p class="timeline-date">July 23, 2016 - 2018</p>
+                <h3 class="timeline-title">
+                  Twitter Company
+                  <span class="timeline-subtitle">- Jr. Developer</span>
+                </h3>
+                <p class="timeline-description">
+                  Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing
+                  Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore
+                  Magna Aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio content section -->
+
+    <section class="portfolio">
+      <div class="portfolio-heading">
+        <p class="portfolio-p">PORTFOLIO</p>
+        <h1 class="portfolio-h1">My <span id="offering">PORTFOLIO</span></h1>
+      </div>
+      <div class="portfolio-Nav">
+        <ul>
+          <li><a href="#" class="portfolio-nav-li-1">ALL</a></li>
+          <li><a href="#">DESIGN</a></li>
+          <li><a href="#">DEVELOPMENT</a></li>
+          <li><a href="#">GRAPHICS</a></li>
+          <li><a href="#">TEMPLATES</a></li>
+        </ul>
+      </div>
+
+      <!-- image section -->
+      <!-- Image Section -->
+      <div class="image-section">
+        <div class="image-container">
+          <img src="images/img-1-port.jpg" alt="img-1-port" />
+          <span class="image-text">3D Graphics </span>
+        </div>
+
+        <div class="image-container">
+          <img src="images/img-port-2.jpg" alt="img-port-2" />
+          <span class="image-text">Web Design</span>
+        </div>
+
+        <div class="image-container">
+          <img src="images/img-port-3.jpg" alt="img-port-3" />
+          <span class="image-text">Web Design</span>
+        </div>
+
+        <div class="image-container">
+          <img src="images/img-port-4.jpg" alt="img-port-4" />
+          <span class="image-text">Development</span>
+        </div>
+
+        <div class="image-container">
+          <img src="images/img-port-5.jpg" alt="img-port-5" />
+          <span class="image-text">Web Design</span>
+        </div>
+
+        <div class="image-container">
+          <img src="images/img-port-6.jpg" alt="img-port-6" />
+          <span class="image-text">3D Graphics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs latest news section -->
+
+    <!-- end of blogs latest news section -->
+
+    <!-- Form section -->
+    <section class="form">
+      <div class="form-header">
+        <p class="form-p">FORM</p>
+        <h1 class="form-h1">Get In <span id="offering">TOUCH</span></h1>
+      </div>
+
+      <div class="form-container">
+        <!-- Left Side -->
+        <div class="form-left">
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Phone" required />
+          <input type="text" placeholder="Subject" required />
+        </div>
+
+        <!-- Right Side -->
+        <div class="form-right">
+          <textarea placeholder="Your Message" rows="6" required></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <div class="footer-1">
+        <h1>Copyright © Borox all rights reserved. Powered by Borox.</h1>
+      </div>
+      <div class="footer-2">
+        <h3>Privacy policy</h3>
+        <h3>Terms and Condition</h3>
+      </div>
+    </section>
+
+    <!-- script code -->
+    <script>
+      function toggleMenu() {
+        document.getElementById("navbar-sticky").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
